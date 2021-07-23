@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Ebay</th></tr>
+<tr><td><a href="#t0">POC_Test1</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">290,090</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Ebay</th></tr></tbody><tbody id="t0"><tr><th colspan="4">POC_Test1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.tyss.actitime.scripts.Ebay</td><td><a href="#m0">shopAtEbay</a></td><td rowspan="1">1625081018544</td><td rowspan="1">253970</td></tr></tbody>
+</table>
+<h2>POC_Test1</h2><h3 id="m0">com.tyss.actitime.scripts.Ebay#shopAtEbay</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>Fashion</td><td>Footwear</td><td>Men</td><td>Nike Air Jordan 1 Mid Metallic</td><td>12</td><td>Athletic Shoes</td><td>Nike</td></tr><tr><th colspan="7">Messages</th></tr><tr><td colspan="7"><div class="messages">Verify submenu is Clickable or Not<br/>Verify subCategory is Clickable or Not<br/>Verify Filters is Clickable or Not<br/>Verify Filters is Clickable or Not<br/>Verify Filters is Clickable or Not<br/>Verify product is Clickable or Not<br/>Verify add ToCart Btn is Clickable or Not<br/>Element is not visible---------cart button<br/>Element is not visible---------cart button<br/>Verify cart button is Clickable or Not<br/>cart button is not Clickable <br/>Unable to clk on cart button<br/>Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='item-quantity']//following-sibling::div//a[text()='View in cart']' (tried for 30 second(s) with 500 milliseconds interval)<br/>Unable to clk on cart button</div></td></tr><tr><th colspan="7">Exception</th></tr><tr><td colspan="7"><div class="stacktrace">java.lang.AssertionError: Unable to clk on cart button
+	at com.tyss.demo.pages.Ebay_Page.clkOnCartBtn(Ebay_Page.java:269)
+	at com.tyss.actitime.scripts.Ebay.shopAtEbay(Ebay.java:52)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
